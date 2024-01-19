@@ -4,28 +4,38 @@
 
 ### 2. Open the terminal navigate to the project directory and run 
    ```bash
-npm install 
+    cd server
+    npm install
 ```
 
 ### 3. Get your MongoDB connection string 
 ```bash
 mongodb+srv://<your_username>:<your_password>@cluster.mongodb.net
 ```
-
-### 4. Create a ```.env``` file inside the project folder as :
+### 4. Create a ```.env``` file inside server folder as :
 ```javascript
-DATABASE_HOST= cluster.mongodb.net
-DATABASE_PORT= 27017
-DATABASE_NAME= mongo
-DATABASE_USERNAME= your_username
-DATABASE_PASSWORD= your_password
-DATABASE_SSL= true
-DATABASE_SRV= true
+ATLAS_USERNAME= 'user-name'
+ATLAS_PASSWORD= 'password'
+JWT_SECRET= "jwt-secret"
 ```
-**Note:** The above credentials to be updated as per the DB configs.
 
-### 5. Open terminal and run 
+### 5. Start server 
+   ```bash
+    npm start
+```
+
+### 6. Open new terminal and run 
+   ```bash
+    cd client
+    npm install
+```
+### 5. Start React app 
 ```bash
-npm run develop
+npm start
 ``` 
+
+
+
+
+
 
