@@ -32,7 +32,13 @@ JWT_SECRET= "jwt-secret"
 ### 5. Start React app 
 ```bash
 npm start
-``` 
+```
+### 5. Login with default user 
+# username default@mail.com
+# password password
+
+### 5. Then create a user with CREATOR or VIEW ALL role
+
 
 
 
