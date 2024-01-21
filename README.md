@@ -34,8 +34,8 @@ JWT_SECRET= "jwt-secret"
 npm start
 ```
 ### 5. Login with default user 
-#### username default@mail.com
-#### password password
+#### username is default@mail.com
+#### password is password
 
 ### 5. Then create a user with CREATOR or VIEW ALL role
 
